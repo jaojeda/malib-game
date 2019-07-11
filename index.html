@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <label>
+            First Verb: <input id="verb1" oninput="updateResult()">
+        </label>
+    </p>
+    <p>
+        <label>
+            Second Verb: <input id="verb2" oninput="updateResult()">
+        </label>
+    </p>
+    <p>
+        <label>
+            First Noun: <input id="noun1" oninput="updateResult()">
+        </label>
+    </p>
+    <p>
+        <label>
+            Second Noun: <input id="noun2" oninput="updateResult()">
+        </label>
+    </p>
+    <p>
+        <label>
+            First Adjective: <input id="adjective1" oninput="updateResult()">
+        </label>
+    </p>
+    <p>
+        <button onclick="updateResult()">Finish</button>
+    </p>
+    <p>
+        I <span id="outverb1"></span> to <span id="outnoun1"></span> in the <span id="outnoun2"></span> and got <span id="outadjective1"></span>. Oops, better <span id="outverb2"></span> a raincoat next time.
+    </p>
+
+    <script src="app.js"></script>
+</body>
+</html>
